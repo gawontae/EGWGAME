@@ -16,3 +16,11 @@
 # 🏝️ Gawon’s Idle Island – Python Idle Game Prototype
 **Gawon’s Idle Island**는 Python으로 구현한 간단한 **방치형(Idle) 섬 경영 게임**입니다.  
 플레이어는 섬 위에 건물을 지으며 골드, 목재, 돌을 생산하고, 섬을 성장시키게 됩니다.
+
+---
+
+# 🌾 Gawon’s Valley
+**Gawon’s Valley**는 Pygame 기반의 스타듀벨리 스타일 미니 농사 게임으로,
+작물 성장·시간 변화·상점·퀘스트·스프라이트 애니메이션까지 포함한 구조로 되어 있습니다.
+
+<img width="1032" height="883" alt="image" src="https://github.com/user-attachments/assets/7f1e839c-9f6c-4eb6-a184-2cbed82a964f" />
