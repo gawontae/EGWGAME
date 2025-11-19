@@ -18,7 +18,7 @@
 플레이어는 섬 위에 건물을 지으며 골드, 목재, 돌을 생산하고, 섬을 성장시키게 됩니다.
 
 <details>
-<summary>🏝️ Idle Island 게임 설명 펼치기</summary>
+<summary>🏝️ Gawon’s Idle Island 게임 설명 펼치기</summary>
 
 ### ✅ 1. 전체 개요
 
