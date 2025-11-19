@@ -69,7 +69,7 @@ class GameState:
 class IdleIslandGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Ropuka's Idle Island - Python GUI Island Ver.")
+        self.root.title("Gawon's Idle Island - Python GUI Island Ver.")
         self.root.geometry("950x600")
         self.root.configure(bg="#f3efe2")
 
