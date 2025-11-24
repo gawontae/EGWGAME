@@ -36,7 +36,7 @@ Python + Pygame 물리 시뮬레이션 게임 프로젝트입니다.
 
 ---
 
-# ⛏️ Gawon Fall Flat
-Gawoncraft는 Python + Pygame으로 구현된 2D 미니 마인크래프트 스타일 샌드박스 게임입니다.
+# ⛏️ Gawoncraft
+**Gawoncraft**는 Python + Pygame으로 구현된 2D 미니 마인크래프트 스타일 샌드박스 게임입니다.
 플레이어는 블록을 설치하고 부수며 지형을 개조하고, 간단한 몬스터와 전투를 하며
 낮·밤 주기가 도는 작은 월드에서 자유롭게 탐험과 생존을 즐길 수 있습니다.
