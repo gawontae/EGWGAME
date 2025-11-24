@@ -3,13 +3,13 @@
 const http = require('http');
 const { Server } = require('socket.io');
 
-const PORT = 21067;
+const PORT = 포트번호;
 
 const httpServer = http.createServer();
 
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://aps.or.kr:8067",
+    origin: "url:port",
     methods: ["GET", "POST"],
   },
 });
