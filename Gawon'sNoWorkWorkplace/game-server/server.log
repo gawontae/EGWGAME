@@ -1,0 +1,111 @@
+nohup: ignoring input
+Game server listening on port 21067
+=== [connect] socket: jtRrCRg_5VhUmWFNAAAB query: [Object: null prototype] {
+  clientId: 'c_06a935r1e_micyzr6w',
+  nickname: '가원',
+  EIO: '4',
+  transport: 'polling',
+  t: 'PgrJAE-'
+} ===
+=== [connect] socket: uIKmRMF5t--aIaIhAAAD query: [Object: null prototype] {
+  clientId: 'c_vpb54xqg1_micz3xvn',
+  nickname: '가원2',
+  EIO: '4',
+  transport: 'polling',
+  t: 'PgrJBEb'
+} ===
+=== [connect] socket: Th0IcWR2GSIdmHsRAAAF query: [Object: null prototype] {
+  clientId: 'c_vpb54xqg1_micz3xvn',
+  nickname: '가원2',
+  EIO: '4',
+  transport: 'polling',
+  t: 'PgrJBhn'
+} ===
+[reuse player] c_vpb54xqg1_micz3xvn nick: 가원2
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> hit 가원2 new hp: 2
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> hit 가원2 new hp: 1
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> hit 가원2 new hp: 0
+  -> 가원2 died
+=== [connect] socket: bN4UkLsXObQ6nEwTAAAH query: [Object: null prototype] {
+  clientId: 'c_dpysyvpvq_micz4yfs',
+  nickname: '가원3',
+  EIO: '4',
+  transport: 'polling',
+  t: 'PgrJE55'
+} ===
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> hit 가원3 new hp: 2
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> hit 가원3 new hp: 1
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> hit 가원3 new hp: 0
+  -> 가원3 died
+=== [connect] socket: oo-e8bAkcoCpDAkqAAAJ query: [Object: null prototype] {
+  clientId: 'c_uu2uplhqv_micz5axx',
+  nickname: '가원5',
+  EIO: '4',
+  transport: 'polling',
+  t: 'PgrJIaa'
+} ===
+[disconnect] socket: uIKmRMF5t--aIaIhAAAD clientId: c_vpb54xqg1_micz3xvn
+[disconnect] socket: Th0IcWR2GSIdmHsRAAAF clientId: c_vpb54xqg1_micz3xvn
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> hit 가원5 new hp: 2
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> hit 가원5 new hp: 1
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> hit 가원5 new hp: 0
+  -> 가원5 died
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> no target in range
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> no target in range
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> no target in range
+[disconnect] socket: bN4UkLsXObQ6nEwTAAAH clientId: c_dpysyvpvq_micz4yfs
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> no target in range
+[attack] from socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+  -> no target in range
+[disconnect] socket: oo-e8bAkcoCpDAkqAAAJ clientId: c_uu2uplhqv_micz5axx
+=== [connect] socket: n-l2bFIUE44qg13pAAAL query: [Object: null prototype] {
+  clientId: 'c_06a935r1e_micyzr6w',
+  nickname: '가원',
+  EIO: '4',
+  transport: 'polling',
+  t: 'PgrJcjw'
+} ===
+[reuse player] c_06a935r1e_micyzr6w nick: 가원
+=== [connect] socket: QR-zFWQiC-wSoOg-AAAN query: [Object: null prototype] {
+  clientId: 'c_ysey0g4hj_micz79r4',
+  nickname: '가원',
+  EIO: '4',
+  transport: 'polling',
+  t: 'PgrJeO2'
+} ===
+=== [connect] socket: wK3DVsqZrMvov0_NAAAP query: [Object: null prototype] {
+  clientId: 'c_j9twstbza_micz7j8e',
+  nickname: '가원',
+  EIO: '4',
+  transport: 'polling',
+  t: 'PgrJhT4'
+} ===
+[disconnect] socket: jtRrCRg_5VhUmWFNAAAB clientId: c_06a935r1e_micyzr6w
+[disconnect] socket: n-l2bFIUE44qg13pAAAL clientId: c_06a935r1e_micyzr6w
+[disconnect] socket: QR-zFWQiC-wSoOg-AAAN clientId: c_ysey0g4hj_micz79r4
+[cleanup stale player] c_06a935r1e_micyzr6w 가원
+=== [connect] socket: Mc0URr3v7LMUSKVsAAAR query: [Object: null prototype] {
+  clientId: 'c_olp0giacp_micz8k6h',
+  nickname: '가원',
+  EIO: '4',
+  transport: 'polling',
+  t: 'PgrJt3h'
+} ===
+[cleanup stale player] c_ysey0g4hj_micz79r4 가원
+[cleanup stale player] c_j9twstbza_micz7j8e 가원
+[disconnect] socket: wK3DVsqZrMvov0_NAAAP clientId: c_j9twstbza_micz7j8e
+[disconnect] socket: Mc0URr3v7LMUSKVsAAAR clientId: c_olp0giacp_micz8k6h
+[cleanup stale player] c_olp0giacp_micz8k6h 가원

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gawon’s No-Work Workplace</title>
+
+  <!-- 메인 스타일 -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Socket.IO 클라이언트 (CDN) -->
+  <script
+    src="https://cdn.socket.io/4.7.2/socket.io.min.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+  <div id="container">
+    <!-- 게임 캔버스 -->
+    <canvas id="gameCanvas" width="1200" height="700"></canvas>
+
+    <!-- 오른쪽 UI -->
+    <div id="ui">
+      <!-- 채팅 박스 -->
+      <div id="chat-box">
+        <div id="chat-log"></div>
+        <input
+          id="chat-input"
+          type="text"
+          placeholder="채팅 입력 후 Enter"
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- 안내 박스 -->
+      <div id="info-box">
+        <h3>Gawon’s No-Work Workplace</h3>
+        <p>방향키 ← ↑ ↓ → 로 이동</p>
+        <p>채팅: 아래 입력창에 쓰고 Enter</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 클라이언트 스크립트 -->
+  <script src="client.js"></script>
+</body>
+</html>
