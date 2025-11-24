@@ -68,9 +68,6 @@ node server.js
 
 http://localhost:포트번호
 
-
-접속
-
 🔹 2) 백그라운드 실행 (운영 서버용)
 nohup node server.js > server.log 2>&1 &
 
