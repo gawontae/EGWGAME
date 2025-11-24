@@ -1,43 +1,87 @@
-# 🎮 Game List
+# 🎮 Gawon’s No-Work Workplace  
+*Because productivity is overrated.*
 
-## *Steam? Never heard of her. I only download from my own repo.*
+## 🧠 게임 소개  
+**Gawon’s No-Work Workplace**는 *“일은 안 하고 대화만 하는 현대 사무실의 현실”*을  
+게임으로 풍자한 **코미디·소셜·액션(?)** 미니 웹 게임입니다.
 
----
+이 회사에서는 **일하는 사람보다 말하는 사람이 승진**합니다.  
+당신은 아무것도 하지 않으면서 살아남아야 하는 직원이 됩니다.
 
-### 📌 EGWGAME 저장소 소개
-이 저장소는 개인 프로젝트로 개발한 다양한 Python 게임들을  
-**브랜치 단위로 차곡차곡 쌓아가는 아카이브**입니다.
-
-상용 플랫폼? 필요 없음.  
-**내 게임은 내가 만들고, 내가 배포한다.**
-
----
-
-# 🏝️ Gawon’s Idle Island – Python Idle Game Prototype
-**Gawon’s Idle Island**는 Python으로 구현한 간단한 **방치형(Idle) 섬 경영 게임**입니다.  
-플레이어는 섬 위에 건물을 지으며 골드, 목재, 돌을 생산하고, 섬을 성장시키게 됩니다.
+업무? 그런 건 중요하지 않습니다.  
+**말싸움, 잡담, 회피, 눈치 싸움만이 생존의 기술입니다.**
 
 ---
 
-# 🌾 Gawon’s Valley
-**Gawon’s Valley**는 Pygame 기반의 스타듀벨리 스타일 미니 농사 게임으로,
-작물 성장·시간 변화·상점·퀘스트·스프라이트 애니메이션까지 포함한 구조로 되어 있습니다.
+## 🕹️ 게임 특징
 
-<img width="1032" height="883" alt="image" src="https://github.com/user-attachments/assets/7f1e839c-9f6c-4eb6-a184-2cbed82a964f" />
+### 🗣️ 1. Attack by Talking  
+- 상대 직원이 말을 걸어오면 회피하거나 더 강력한 “말 공격”으로 대응하세요.  
+- 공격에 성공하면 **Success!** 메시지가 뜹니다.  
+- 실패하면 **하트(❤️) 1개씩 감소**합니다.
+
+### ❤️ 2. 3번 공격 당하면 Out  
+- 하트가 0이 되면 즉시 **프로젝트에서 튕겨나감(퇴출)**  
+- 현실 고증 100%
+
+### 🎧 3. 매우 바쁜 척 시스템  
+- 아무 것도 하지 않지만 바쁜 척만 잘하면 되는 회사  
+- Spacebar → **이제는 "공격 성공 시"에만 Success 표시됨**
+
+### 🏢 4. 사무실 풍자 요소  
+- 일하는 사람 없음  
+- 커피 마시기 10분 → 회의 2시간  
+- “좋은데요?” 한마디면 팀장 만족  
+- 책상 배치도 미국식 개그 컨셉
 
 ---
 
-# 🧩 Gawon Fall Flat
-
-**Gawon Fall Flat**은 물리 기반 퍼즐 게임 Human: Fall Flat에서 영감을 받아 제작한
-Python + Pygame 물리 시뮬레이션 게임 프로젝트입니다.
-플레이어는 말랑한 젤리 인간 캐릭터를 조종하며
-기울기·중력·마찰·관성 같은 물리 요소를 활용해 스테이지를 돌파하게 됩니다.
+## 🎯 게임 목표  
+- **최소한의 노동으로 최대한 오래 버티기**  
+- 공격 대화에서 지지 않기  
+- 불필요한 회의에서 생존하기  
+- 동료에게 공격받지 않고 버티면 승리!
 
 ---
 
-# ⛏️ Gawoncraft
+```bash
+game-server/
+ ├── public/
+ │    ├── index.html
+ │    ├── script.js
+ │    ├── style.css
+ ├── server.js
+ ├── package.json
+ └── README.md
+```
 
-**Gawoncraft**는 Python + Pygame으로 구현된 2D 미니 마인크래프트 스타일 샌드박스 게임입니다.
-플레이어는 블록을 설치하고 부수며 지형을 개조하고, 간단한 몬스터와 전투를 하며
-낮·밤 주기가 도는 작은 월드에서 자유롭게 탐험과 생존을 즐길 수 있습니다.
+---
+
+## 📦 설치 및 실행 방법  
+### 1) 서버 실행  
+
+```bash
+🔹 1) 로컬 실행 (개발 모드)
+node server.js
+
+브라우저에서
+
+http://localhost:포트번호
+
+🔹 2) 백그라운드 실행 (운영 서버용)
+nohup node server.js > server.log 2>&1 &
+
+🔹 3) 실행 중인 서버 확인
+sudo lsof -i :<포트번호>
+
+🔹 4) 서버 종료
+kill -9 <PID>
+
+🔹 5) 로그 확인
+cat server.log
+
+🎮 조작 방법
+키	기능
+← / → 이동
+Space	공격
+```
