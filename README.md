@@ -44,6 +44,7 @@
 
 ---
 
+```bash
 game-server/
  ├── public/
  │    ├── index.html
@@ -52,12 +53,13 @@ game-server/
  ├── server.js
  ├── package.json
  └── README.md
+```
 
 ---
 
 ## 📦 설치 및 실행 방법  
 ### 1) 서버 실행  
-```bash
+
 node server.js
 🔹 1) 로컬 실행 (개발 모드)
 node server.js
