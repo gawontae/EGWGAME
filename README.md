@@ -60,10 +60,9 @@ game-server/
 ## 📦 설치 및 실행 방법  
 ### 1) 서버 실행  
 
-node server.js
+```bash
 🔹 1) 로컬 실행 (개발 모드)
 node server.js
-
 
 브라우저에서
 
@@ -89,3 +88,4 @@ cat server.log
 ← / → / A / D	이동
 Space	말 공격
 자동 반응	동료 대화 발생 시 자동 판정
+```
