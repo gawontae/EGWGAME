@@ -17,7 +17,6 @@ if (nickname == null) {
   nickname = nickname.replace(/^\s+|\s+$/g, "");
 }
 
-// Socket.IO: 같은 도메인/포트(8067) + polling
 var socket = io({
   transports: ["polling"],
   query: {
@@ -216,3 +215,4 @@ function draw() {
 }
 
 draw();
+
